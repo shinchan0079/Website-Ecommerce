@@ -3,7 +3,10 @@ import './CSS/Header.css'
 import { FaSearch } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { FaCartArrowDown } from "react-icons/fa6";
+import { IoIosHome } from "react-icons/io";
 
+
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -24,16 +27,28 @@ const Header = () => {
     </div>
     <div className="header-btns">
       <div className="header-login-btn">
-        <IoPerson />
+        <IoPerson className='cart-icon'/>
         <span>Login/SignUp</span>
       </div>
       <div className="header-cart-btn">
-        <FaCartArrowDown />
+        <div className="header-cart-count">0</div>
+        <FaCartArrowDown className='cart-icon' />
         <span>Items</span>
       </div>
     </div>
 
 
+</div>
+
+<div className="header-bottom-menu">
+  <ul>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to=""><IoIosHome /></NavLink>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to="">Shop</NavLink>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to="">Flower</NavLink>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to="">Gallery</NavLink>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to="">About</NavLink>
+    <NavLink className = {({isActive}) => `navLinks ${isActive? "navActive" : ""}`} to="">Contact</NavLink>
+  </ul>
 </div>
     </>
   )

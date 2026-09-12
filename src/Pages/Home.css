@@ -1,0 +1,7 @@
+.slider-outer{
+    width: 100%;
+}
+.slider-image{
+    height: 100%;
+    object-fit: cover;
+}
