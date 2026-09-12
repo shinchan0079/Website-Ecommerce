@@ -7,21 +7,8 @@
 }
 
 .category-card-outer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 30px 5%;
-}
-
-@media (max-width: 768px){
-    .category-card-outer{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
-    }
-}
-
-@media (max-width: 480px){
-    .category-card-outer{
-        grid-template-columns: 1fr;
-    }
+    /* width: 200px; */
+    display: flex;
+    /* gap: 20px; */
+    padding: 15px 1px;
 }
