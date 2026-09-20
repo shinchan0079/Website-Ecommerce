@@ -1,0 +1,71 @@
+
+.review-section-inner{
+    height: 330px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    overflow-x: auto;
+    padding: 62px 6%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.review-section-inner::-webkit-scrollbar{
+    display: none;
+}
+.review-cards{
+    height: 260px;
+    width: 340px;
+    flex-shrink: 0;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    overflow: visible;
+    position: relative;
+    border-radius: 8px;
+    padding: 0 24px;
+    box-shadow: 0 2px 4px rgba(70, 52, 60, 0.04);
+}
+
+
+.review-cards>span{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #9CA765;
+}
+.review-cards>h4{
+    text-align: left;
+    padding: 0;
+    margin: 10px 0 14px;
+    color: #3e3e45;
+    font-size: 18px;
+    /* line-height: 1.25; */
+}
+.review-cards>p{
+    padding: 0;
+    text-align: left;
+    color: #858585;
+    font-size: 15px;
+    line-height: 1.55;
+    max-height: 80px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.avtar{
+    height: 70px;
+    width: 70px;
+    background-color: #a0a0a0;
+    border-radius: 50%;
+    font-size: 52px;
+    color: white;
+    position: relative;
+    bottom: 35px;
+    margin: auto;
+    z-index: 9999;
+}
+.avtar>.avtaricon{
+    position: relative;
+    bottom: 10px;
+}

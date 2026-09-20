@@ -1,0 +1,154 @@
+.footer-outer-section{
+    height: 500px;
+    width: 100%;
+    background-color: #333333;
+}
+.footer-top{
+
+height: 250px;
+width: 100%;
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.footer-secure-outer{
+
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+.secure-payment-icon{
+
+    width: 30%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.secure-payment-icon img{
+    height: 70px;
+}
+.secure-payment-text{
+    
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px   ;
+    
+    
+}
+.secure-payment-text p{
+    font-size: 12px;
+}
+
+.footer-line{
+    border-right: 1px solid white;
+    
+}
+
+.hr-line-footer{
+    color: white;
+    margin: 0 auto;
+    width: 95%;
+    background-color: white;
+}
+.footer-bottom{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.footer-bottom-1{
+    /* height: 100%; */
+    /* width: 25%; */
+    background-color: pink;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding: 20px;
+}
+.footer-bottom-2{
+    height: 100%;
+    width: 20%;
+    background-color: green;
+    padding: 20px;
+}
+.footer-bottom-2 ul{
+    list-style: none;
+}
+.footer-bottom-3{
+    height: 100%;
+    width: 25%;
+    background-color: pink;
+    padding: 20px;
+
+}
+.footer-bottom-4{
+    height: 100%;
+    width: 25%;
+    background-color: green;
+}
+.footer-socialmedia-icons{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.facbook-icon{
+height: 90%;
+    width: 20%;
+    background-color: blue;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius:50%;
+}
+.instagram-icon{
+    height: 90%;
+    width: 20%;
+    background-color: rgb(141, 17, 38);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius:50%;
+}
+.linkdin-icon{
+    height: 90%;
+    width: 20%;
+    background-color: blue;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius:50%;
+}
+.twitter-icon{
+    height: 90%;
+    width: 20%;
+    font-size: 25px;
+    background-color:skyblue;
+    align-items: center;
+    border-radius:50%;
+    justify-content: center;
+    display: flex;
+}
